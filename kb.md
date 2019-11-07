@@ -1,6 +1,7 @@
 # Android knowledge base
 
 ## 应用层
+
 1. View 的绘制原理与自定义
 2. View层对 Touch Event 的响应处理
 3. Activity 的生命周期
@@ -23,6 +24,7 @@
 20. AAC : ViewModel, LifeCycle, LiveData, Paging library, Room
 
 ## 框架层
+
 * App 的启动
 * App 的入口点
 * Binder 机制的理解
@@ -30,6 +32,7 @@
 * Instant Run
 
 ## 扩展
+
 * App 的测试
 * MV* GUI框架的理解
 * Glide 的实现原理
@@ -42,7 +45,21 @@
 * 跨平台开发 (RN, Flutter...)
 
 ## 协作
+
 * git
 * JIRA/Confluence
 * 公共组件的管理
 
+## 工具箱
+
+* [Proguard](./proguard.md)
+  
+* Retrofit
+
+## 源码阅读与实践
+
+* [图片加载库 Glide](./glide_basic.md)
+  
+* [架构组件之 ViewModel](./viewmodel.md)
+
+* [Vysor](./vysor.md)
