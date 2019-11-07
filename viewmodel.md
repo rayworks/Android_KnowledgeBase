@@ -13,6 +13,7 @@ UI 控制器如Activity / Fragment主要用于展示UI数据，响应用户请�
 ## ViewModel 的生命周期
 
 且看官方给出的ViewModel生命周期图示：
+
 ![viewmodel-lifecycle](http://upload-images.jianshu.io/upload_images/5227029-ef742e8367219513.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 对照Demo中的实际效果:
