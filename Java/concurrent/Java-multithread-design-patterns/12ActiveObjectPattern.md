@@ -32,7 +32,7 @@
 
 执行flow：
 
-> The proxy asks the schedulerThread to process the concrete MethodRequest and returns (a `FutureResult` obejct if needed) immediately, then the request will be added into the queue of schedulerThread. Following the Producer-Consumer pattern, the request will the taken out and executed. During the execution phrase, the Servant gets invovled which does the actual job.
+> The proxy asks the schedulerThread to process the concrete MethodRequest and returns immediately (a `FutureResult` obejct if needed), then the request will be added into the queue of schedulerThread. Following the Producer-Consumer pattern, the request will the taken out and executed. During the execution phrase, the Servant gets involved and processes the actual task.
 
 ### 拓展
 
@@ -82,8 +82,6 @@ Java中有一种与Active Object模式相关的技术叫作Remote Method Invocat
 | `Callable` | 将获取返回值的调用（call）抽象化后的接口（替代 -> MethodRequest 的具体类型） |
 | `Runnable` | 将不获取返回值的调用（run）抽象化后的接口（替代 ->  MethodRequest 的具体类型|
 | `Future` | 表示返回值的接口（替代 -> Result、FutureResult、RealResult）|
-|  | |
-
 
 ### 备注
 
